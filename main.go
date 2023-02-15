@@ -7,7 +7,6 @@ func searchInsert(nums []int, target int) int {
 
 	var cache, cache2 int
 	for {
-		fmt.Println(start, middle, end, cache)
 		middle = (start + end) / 2
 
 		cache = nums[middle]
